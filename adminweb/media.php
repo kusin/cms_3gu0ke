@@ -20,6 +20,8 @@
 	
 	<!-- Theme style -->
 	<link rel="stylesheet" href="assets/dist/css/adminlte.min.css">
+
+	
 </head>
 
 <body class="hold-transition sidebar-mini">

@@ -1,7 +1,3 @@
-<!--
-	Cek sourcode : sudah selesai	
---->
-
 <!-- sidebar logo -->
 <div class="user-panel mt-3 mb-3 pb-3 d-flex">
 	<div class="image">
@@ -98,7 +94,7 @@
 
 				<!-- data pembayaran spp -->
 				<li class="nav-item">
-					<a href="pages/search/simple.html" class="nav-link">
+					<a href="?page=spp" class="nav-link">
 						<i class="fa-solid fa-minus nav-icon"></i>
 						<p>Data Pembayaran SPP</p>
 					</a>
