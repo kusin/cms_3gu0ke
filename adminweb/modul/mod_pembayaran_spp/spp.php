@@ -12,37 +12,40 @@
             </button>
         </div>
     </div>
-    <div class="card-body">
-        <table class="table table-bordered table-hover">
-            <thead>
-                <tr>
-                    <th>Nama Siswa</th>
-                    <th>Nama Kelas</th>
-                    <th>Total Pembayaran</th>
-                    <th>Total Tagihan</th>
-                    <th>Aksi</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php
-                    $i = 0;
-                    for($i=0; $i<=10; $i++){
-                ?>
-                <tr>
-                    <td>Aryajaya Alamsyah</td>
-                    <td>X-TKJ-1</td>
-                    <td>Rp. 10.000.000,-</td>
-                    <td>Rp. 0,-</td>
-                    <td>
-                        <button type="button" class="btn btn-success btn-sm">
-                            <a href="?page=pembayaran_spp">Bayar</a>
-                        </button>
-                    </td>
-                </tr>
 
-                <?php } ?>
-            </tbody>
-        </table>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>NIS</th>
+                        <th>Nama Siswa</th>
+                        <th>Total Pembayaran</th>
+                        <th>Total Tagihan</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                        $i = 0;
+                        for($i=0; $i<=10; $i++){
+                    ?>
+                    <tr>
+                        <td>Aryajaya Alamsyah</td>
+                        <td>X-TKJ-1</td>
+                        <td>Rp. 10.000.000,-</td>
+                        <td>Rp. 0,-</td>
+                        <td>
+                            <button type="button" class="btn btn-success btn-sm">
+                                <a href="?page=pembayaran_spp">Bayar</a>
+                            </button>
+                        </td>
+                    </tr>
+
+                    <?php } ?>
+                </tbody>
+            </table>
+        </div>
     </div>
     <div class="card-footer">
         <small>last updated data on 2022-18-01</small>
