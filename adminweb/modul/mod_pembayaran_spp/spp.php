@@ -36,9 +36,9 @@
                         <td>Rp. 10.000.000,-</td>
                         <td>Rp. 0,-</td>
                         <td>
-                            <button type="button" class="btn btn-success btn-sm">
-                                <a href="?page=pembayaran_spp">Bayar</a>
-                            </button>
+                            <a href="?page=pembayaran_spp">
+                                <button type="button" class="btn btn-success btn-sm">Bayar</button>
+                            </a>
                         </td>
                     </tr>
 

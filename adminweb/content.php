@@ -12,15 +12,15 @@
 	else if($_GET["page"] == "pembayaran_spp"){
 		include "modul/mod_pembayaran_spp/pembayaran_spp.php";
 	}
+	else if($_GET["page"] == "jurusan"){
+		include "modul/mod_jurusan/jurusan.php";
+	}
 	else{
-		// <!-- div welcome -->
 		echo "
 			<div class='callout callout-success'>
 				<p class='text-secondary'>Modul tidak tersedia</p>
 			</div>
 		";
-		// <!-- /.div welcome -->
 	}
-
 
 ?>

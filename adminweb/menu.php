@@ -116,14 +116,60 @@
 		</li>
 		<!-- /. li-menu-spp -->
 
-		<!-- menu pengaturan sistem -->
+		<!-- menu-pengaturan-sistem -->
 		<li class="nav-item">
+
+			<!-- pengaturan sistem -->
 			<a href="#" class="nav-link">
 				<i class="nav-icon fa-solid fa-gears"></i>
-				<p>Pengaturan Sistem</p>
+				<p>Pengaturan Sistem<i class="fas fa-angle-left right"></i></p>
 			</a>
+			<!-- /. pengaturan sistem -->
+
+			<!-- nav-tree-pengaturan-sistem -->
+			<ul class="nav nav-treeview">
+
+				<!-- data jurusan -->
+				<li class="nav-item">
+					<a href="?page=jurusan" class="nav-link">
+						<i class="fa-solid fa-minus nav-icon"></i>
+						<p>Data Jurusan</p>
+					</a>
+				</li>
+				<!-- /.data jurusan -->
+
+				<!-- data kelas -->
+				<li class="nav-item">
+					<a href="#" class="nav-link">
+						<i class="fa-solid fa-minus nav-icon"></i>
+						<p>Data kelas</p>
+					</a>
+				</li>
+				<!-- ./data kelas -->
+
+				<!-- data tahun ajar -->
+				<li class="nav-item">
+					<a href="#" class="nav-link">
+						<i class="fa-solid fa-minus nav-icon"></i>
+						<p>Data Tahun Ajar</p>
+					</a>
+				</li>
+				<!-- ./data tahun ajar -->
+
+				<!-- data jenis pembayaran -->
+				<li class="nav-item">
+					<a href="#" class="nav-link">
+						<i class="fa-solid fa-minus nav-icon"></i>
+						<p>Data Jenis Pembayaran</p>
+					</a>
+				</li>
+				<!-- ./data jenis pembayaran -->
+
+			</ul>
+			<!-- nav-tree-pengaturan-sistem -->
+
 		</li>
-		<!-- ./menu pengaturan sistem -->
+		<!-- ./menu-pengaturan-sistem -->
 
 		<!-- li-keluar -->
 		<li class="nav-item">
