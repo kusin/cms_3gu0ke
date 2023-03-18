@@ -2,15 +2,15 @@
 
     class Database{
 
+        // property database
         protected $conn = "";
-
         private $server = "localhost";
         private $username = "root";
         private $password = "";
         private $database = "cms_3gu0ke";
-        
-        function getConnection(){
-            
+
+        // method open koneksi
+        function __construct(){
             try{
                 $this->conn = new mysqli(
                     $this->server, $this->username, $this->password, $this->database
@@ -22,17 +22,10 @@
             return $this->conn;
         }
 
-        // function __construct(){
-        //     $this->conn = new mysqli(
-        //         $this->server, $this->username, $this->password, $this->database
-        //     );
-
-        //     return $this->conn;
-        // }
-
-        // function __destruct(){
-        //     return $this->conn->close();
-        // }
+        // method close koneksi
+        function __destruct(){
+            return $this->conn->close();
+        }
     }
 
 ?>
