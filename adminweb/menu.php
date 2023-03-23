@@ -33,88 +33,23 @@
 		</li>
 		<!-- /. li-menu-data-siswa -->
 
-		<!-- li-menu-tabungan -->
+		<!-- li-menu-data-pembayaran-spp -->
 		<li class="nav-item">
-
-			<!-- menu tabungan -->
-			<a href="#" class="nav-link">
-				<i class="nav-icon fa-solid fa-bars"></i>
-				<p>Menu Tabungan<i class="fas fa-angle-left right"></i></p>
+			<a href="?page=spp" class="nav-link">
+				<i class="nav-icon fa-solid fa-money-check-dollar"></i>
+				<p>Data Pembayaran SPP</p>
 			</a>
-			<!-- /. menu tabungan -->
-
-			<!-- nav-tree-menu-tabungan -->
-			<ul class="nav nav-treeview">
-
-				<!-- data transaksi -->
-				<li class="nav-item">
-					<a href="#" class="nav-link">
-						<i class="fa-solid fa-minus nav-icon"></i>
-						<p>Data Rekening</p>
-					</a>
-				</li>
-				<!-- /.data transaksi -->
-
-				<!-- data rekening -->
-				<li class="nav-item">
-					<a href="#" class="nav-link">
-						<i class="fa-solid fa-minus nav-icon"></i>
-						<p>Data Transaksi</p>
-					</a>
-				</li>
-				<!-- ./data rekening -->
-
-				<!-- cetak laporan -->
-				<li class="nav-item">
-					<a href="#" class="nav-link">
-						<i class="fa-solid fa-minus nav-icon"></i>
-						<p>Cetak Laporan</p>
-					</a>
-				</li>
-				<!-- ./cetak laporan -->
-
-			</ul>
-			<!-- nav-tree-menu-tabungan -->
-
 		</li>
-		<!-- /. li-menu-tabungan -->
+		<!-- /. li-menu-data-pembayaran-spp -->
 
-		<!-- li-menu-spp -->
+		<!-- li-menu-cetak-laporan -->
 		<li class="nav-item">
-
-			<!-- menu spp -->
 			<a href="#" class="nav-link">
-				<i class="nav-icon fa-solid fa-bars"></i>
-				<p>Menu SPP<i class="fas fa-angle-left right"></i></p>
+				<i class="nav-icon fa-solid fa-print"></i>
+				<p>Cetak Laporan</p>
 			</a>
-			<!-- /. menu spp -->
-
-			<!-- nav-tree-menu-spp -->
-			<ul class="nav nav-treeview">
-
-				<!-- data pembayaran spp -->
-				<li class="nav-item">
-					<a href="?page=spp" class="nav-link">
-						<i class="fa-solid fa-minus nav-icon"></i>
-						<p>Data Pembayaran SPP</p>
-					</a>
-				</li>
-				<!-- /.data pembayaran spp -->
-
-				<!-- cetak laporan -->
-				<li class="nav-item">
-					<a href="#" class="nav-link">
-						<i class="fa-solid fa-minus nav-icon"></i>
-						<p>Cetak Laporan</p>
-					</a>
-				</li>
-				<!-- ./cetak laporan -->
-
-			</ul>
-			<!-- nav-tree-menu-spp -->
-
 		</li>
-		<!-- /. li-menu-spp -->
+		<!-- /. li-menu-cetak-laporan -->
 
 		<!-- menu-pengaturan-sistem -->
 		<li class="nav-item">

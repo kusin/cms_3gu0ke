@@ -1,51 +1,79 @@
-<!-- card -->
-<div class="card card-info">
+<!-- ----------------------------------------------------------------------- -->
+<!-- /. Data Siswa --------------------------------------------------------- -->
+<!-- ----------------------------------------------------------------------- -->
+<!-- div-row -->
+<div class="row">
 
-    <!-- card-header -->
-    <div class="card-header">
-        <h3 class="card-title">Data Siswa</h3> 
+    <!-- div-col-md-12-->
+    <div class="col-md-12">
+        <div class="alert alert-info" role="alert">
+            Informasi data siswa
+        </div>
     </div>
-    <!-- /.card-header -->
+    <!-- /.div-col-md-12-->
+
+    <!-- div-col-md-6-->
+    <div class="col-md-6">
     
-    <!-- card-body -->
-    <div class="card-body">
+    </div>
+    <!-- /.div-col-md-6-->
+
+    <!-- div-col-md-6-->
+    <div class="col-md-6">
 
     </div>
-    <!-- /.card-body -->
-    
+    <!-- /.div-col-md-6-->
+
 </div>
-<!-- /.card -->
+<!-- /.div-row -->
 
 
-<!-- card -->
-<div class="card card-info">
+<!-- ----------------------------------------------------------------------- -->
+<!-- /. Form Pemabayaran SPP ----------------------------------------------- -->
+<!-- ----------------------------------------------------------------------- -->
+<!-- div-row -->
+<div class="row">
 
-    <!-- card-header -->
-    <div class="card-header">
-        <h3 class="card-title">Form Pembayaran SPP</h3> 
+    <!-- div-col-md-12-->
+    <div class="col-md-12">
+        <div class="alert alert-info" role="alert">
+            Formulir pembayaran spp
+        </div>
     </div>
-    <!-- /.card-header -->
+    <!-- /.div-col-md-12-->
+
+    <!-- div-col-md-6-->
+    <div class="col-md-6">
     
-    <!-- card-body -->
-    <div class="card-body">
+    </div>
+    <!-- /.div-col-md-6-->
+
+    <!-- div-col-md-6-->
+    <div class="col-md-6">
 
     </div>
-    <!-- /.card-body -->
-    
+    <!-- /.div-col-md-6-->
+
 </div>
-<!-- /.card -->
+<!-- /.div-row -->
 
-<!-- card -->
-<div class="card card-info">
 
-    <!-- card-header -->
-    <div class="card-header">
-        <h3 class="card-title">Data Pembayaran SPP</h3> 
+<!-- ----------------------------------------------------------------------- -->
+<!-- /. Data Pembayaran SPP ------------------------------------------------ -->
+<!-- ----------------------------------------------------------------------- -->
+<!-- div-row -->
+<div class="row">
+
+    <!-- div-col-md-12-->
+    <div class="col-md-12">
+        <div class="alert alert-info" role="alert">
+            Informasi detail pembayaran
+        </div>
     </div>
-    <!-- /.card-header -->
-    
-    <!-- card-body -->
-    <div class="card-body">
+    <!-- /.div-col-md-12-->
+
+    <!-- div-col-md-12-->
+    <div class="col-md-12">
         <table class="table table-bordered table-hover">
             <thead>
                 <tr>
@@ -193,7 +221,13 @@
             </tbody>
         </table>
     </div>
-    <!-- /.card-body -->
-    
+    <!-- /.div-col-md-12-->
+
+    <!-- div-col-md-6-->
+    <div class="col-md-6">
+
+    </div>
+    <!-- /.div-col-md-6-->
+
 </div>
-<!-- /.card -->
+<!-- /.div-row -->

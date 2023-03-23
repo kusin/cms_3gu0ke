@@ -1,7 +1,6 @@
 <!-- ----------------------------------------------------------------------- -->
 <!-- /. div-welcome -------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------- -->
-
 <!-- div welcome -->
 <div class="callout callout-success">
     <p class="text-secondary">
@@ -14,143 +13,131 @@
 <!-- ----------------------------------------------------------------------- -->
 <!-- /. Informasi Umum ----------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------- -->
+<!-- div-row -->
+<div class="row">
 
-<!-- card -->
-<div class="card card-info">
-
-    <!-- card-header -->
-    <div class="card-header">
-        <h3 class="card-title">Informasi Umum Sistem</h3> 
-    </div>
-    <!-- /.card-header -->
-    
-    <!-- card-body -->
-    <div class="card-body">
-    
-        <!-- div-row -->
-        <div class="row">
-            
-            <div class="col-md-4">
-                <div class="info-box">
-                    <span class="info-box-icon bg-info"><i class="fa-solid fa-building-columns"></i></span>
-                    <div class="info-box-content">
-                        <span class="info-box-text">Jumlah Kelas</span>
-                        <span class="info-box-number">10</span>
-                    </div>
-                    <!-- /.info-box-content -->
-                </div>
-                <!-- /.info-box -->
-            </div>
-            <!-- /.col-kelas-->
-
-            <div class="col-md-4">
-                <div class="info-box">
-                    <span class="info-box-icon bg-info"><i class="fa-solid fa-user-graduate"></i></span>
-                    <div class="info-box-content">
-                        <span class="info-box-text">Jumlah Siswa</span>
-                        <span class="info-box-number">1,410</span>
-                    </div>
-                    <!-- /.info-box-content -->
-                </div>
-                <!-- /.info-box -->
-            </div>
-            <!-- /.col-siswa-->
-
-            <div class="col-md-4">
-                <div class="info-box">
-                    <span class="info-box-icon bg-info"><i class="fa-solid fa-user-gear"></i></span>
-                    <div class="info-box-content">
-                        <span class="info-box-text">Adminstrator</span>
-                        <span class="info-box-number">5</span>
-                    </div>
-                    <!-- /.info-box-content -->
-                </div>
-                <!-- /.info-box -->
-            </div>
-            <!-- /.col-administrator-->
-
+    <div class="col-md-12">
+        <div class="alert alert-info" role="alert">
+            Informasi Umum Aplikasi Pembayaran SPP
         </div>
-        <!-- /.div-row -->
-
     </div>
-    <!-- /.card-body -->
-    
+    <!-- /.col-informasi-spp -->
+
+    <div class="col-md-3">
+        <div class="info-box">
+            <span class="info-box-icon bg-info"><i class="fa-solid fa-building-columns"></i></span>
+            <div class="info-box-content">
+                <span class="info-box-text">Jumlah Jurusan</span>
+                <span class="info-box-number">10</span>
+            </div>
+            <!-- /.info-box-content -->
+        </div>
+        <!-- /.info-box -->
+    </div>
+    <!-- /.col-kelas-->
+
+    <div class="col-md-3">
+        <div class="info-box">
+            <span class="info-box-icon bg-info"><i class="fa-solid fa-building-columns"></i></span>
+            <div class="info-box-content">
+                <span class="info-box-text">Jumlah Kelas</span>
+                <span class="info-box-number">10</span>
+            </div>
+            <!-- /.info-box-content -->
+        </div>
+        <!-- /.info-box -->
+    </div>
+    <!-- /.col-kelas-->
+
+    <div class="col-md-3">
+        <div class="info-box">
+            <span class="info-box-icon bg-info"><i class="fa-solid fa-user-graduate"></i></span>
+            <div class="info-box-content">
+                <span class="info-box-text">Jumlah Siswa</span>
+                <span class="info-box-number">1,410</span>
+            </div>
+            <!-- /.info-box-content -->
+        </div>
+        <!-- /.info-box -->
+    </div>
+    <!-- /.col-siswa-->
+
+    <div class="col-md-3">
+        <div class="info-box">
+            <span class="info-box-icon bg-info"><i class="fa-solid fa-user-gear"></i></span>
+            <div class="info-box-content">
+                <span class="info-box-text">Adminstrator</span>
+                <span class="info-box-number">5</span>
+            </div>
+            <!-- /.info-box-content -->
+        </div>
+        <!-- /.info-box -->
+    </div>
+    <!-- /.col-administrator-->
+
 </div>
-<!-- /.card -->
+<!-- /.div-row -->
 
 
 <!-- ----------------------------------------------------------------------- -->
 <!-- /. Informasi SPP ------------------------------------------------------ -->
 <!-- ----------------------------------------------------------------------- -->
-
-<!-- card -->
-<div class="card card-info">
-
-    <!-- card-header -->
-    <div class="card-header">
-        <h3 class="card-title">Informasi SPP</h3> 
-    </div>
-    <!-- /.card-header -->
+<!-- div-row -->
+<div class="row">
     
-    <!-- card-body -->
-    <div class="card-body">
-
-        <!-- div-row -->
-        <div class="row">
-            
-            <div class="col-md-4">
-                <div class="info-box">
-                    <span class="info-box-icon bg-success"><i class="fa-solid fa-wallet"></i></span>
-                    <div class="info-box-content">
-                        <span class="info-box-text">Total Pemasukan</span>
-                        <span class="info-box-number">Rp. 10.000.000,-</span>
-                    </div>
-                    <!-- /.info-box-content -->
-                </div>
-                <!-- /.info-box -->
-            </div>
-            <!-- /.col-pemasukan-persemester -->
-
-            <div class="col-md-4">
-                <div class="info-box">
-                    <span class="info-box-icon bg-danger"><i class="fa-solid fa-money-check-dollar"></i></span>
-                    <div class="info-box-content">
-                        <span class="info-box-text">Total Pengeluaran</span>
-                        <span class="info-box-number">Rp. 0,-</span>
-                    </div>
-                    <!-- /.info-box-content -->
-                </div>
-                <!-- /.info-box -->
-            </div>
-            <!-- /.col-pengeluaran-persemester -->
-
-            <div class="col-md-4">
-                <div class="info-box">
-                    <span class="info-box-icon bg-danger"><i class="fa-solid fa-coins"></i></span>
-                    <div class="info-box-content">
-                        <span class="info-box-text">Total Tagihan</span>
-                        <span class="info-box-number">Rp. 0,-</span>
-                    </div>
-                    <!-- /.info-box-content -->
-                </div>
-                <!-- /.info-box -->
-            </div>
-            <!-- /.col-pengeluaran-persemester -->
-
+    <div class="col-md-12">
+        <div class="alert alert-info" role="alert">
+            Informasi SPP
         </div>
-        <!-- /.div-row -->
-
     </div>
-    <!-- /.card-body -->
-    
+    <!-- /.col-informasi-spp -->
+
+    <div class="col-md-4">
+        <div class="info-box">
+            <span class="info-box-icon bg-success"><i class="fa-solid fa-wallet"></i></span>
+            <div class="info-box-content">
+                <span class="info-box-text">Total Pemasukan</span>
+                <span class="info-box-number">Rp. 10.000.000,-</span>
+            </div>
+            <!-- /.info-box-content -->
+        </div>
+        <!-- /.info-box -->
+    </div>
+    <!-- /.col-pemasukan-persemester -->
+
+    <div class="col-md-4">
+        <div class="info-box">
+            <span class="info-box-icon bg-danger"><i class="fa-solid fa-money-check-dollar"></i></span>
+            <div class="info-box-content">
+                <span class="info-box-text">Total Pengeluaran</span>
+                <span class="info-box-number">Rp. 0,-</span>
+            </div>
+            <!-- /.info-box-content -->
+        </div>
+        <!-- /.info-box -->
+    </div>
+    <!-- /.col-pengeluaran-persemester -->
+
+    <div class="col-md-4">
+        <div class="info-box">
+            <span class="info-box-icon bg-danger"><i class="fa-solid fa-coins"></i></span>
+            <div class="info-box-content">
+                <span class="info-box-text">Total Tagihan</span>
+                <span class="info-box-number">Rp. 0,-</span>
+            </div>
+            <!-- /.info-box-content -->
+        </div>
+        <!-- /.info-box -->
+    </div>
+    <!-- /.col-pengeluaran-persemester -->
+
 </div>
-<!-- /.card -->
+<!-- /.div-row -->
 
 
 <!-- ----------------------------------------------------------------------- -->
 <!-- /. Informasi SPP - Data Harian & Bulanan ------------------------------ -->
 <!-- ----------------------------------------------------------------------- -->
-
 <!-- div-row -->
 <div class="row">
     
@@ -246,6 +233,7 @@
 
 </div>
 <!-- /.div-row -->
+
 
 <!-- ----------------------------------------------------------------------- -->
 <!-- /. Informasi SPP - Data Perkelas -------------------------------------- -->
