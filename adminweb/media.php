@@ -2,24 +2,26 @@
 <html lang="en">
 
 <head>
-	<!-- metadata -->
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come*after* these tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<!-- title website -->
+	<!-- title this website -->
 	<title>AdminLTE 3 | Blank Page</title>
 
+	<!-- Bootstrap core CSS -->
+    <!-- Bootstrap version 4.6.1 -->
+	<link rel="stylesheet" href="assets/template_adminLTE/css/adminlte.min.css">
+
 	<!-- Google Font: Source Sans Pro -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+	<link rel="stylesheet" href="assets/fonts.googleapis.css">
 	
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="plugins/fontawesome/css/fontawesome.css">
-    <link rel="stylesheet" href="plugins/fontawesome/css/brands.css">
-    <link rel="stylesheet" href="plugins/fontawesome/css/solid.css">
-	
-	<!-- Theme style -->
-	<link rel="stylesheet" href="template_adminLTE/css/adminlte.min.css">
-	
+	<!-- Icons core CSS -->
+	<!-- Font-Awesome version 6.2.0 -->
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/brands.css">
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/solid.css">
+
 </head>
 
 <body class="hold-transition sidebar-mini">
@@ -81,18 +83,18 @@
 
 	<!-- REQUIRED SCRIPTS -->
 	<!-- JS jQuery -->
-	<script src="plugins/jquery/jquery.min.js"></script>
+	<script src="assets/plugins/jquery/jquery.min.js"></script>
 	
-	<!-- JS Bootstrap 4 -->
-	<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<!-- JS Bootstrap 4.6.1 -->
+	<script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-	<!-- JS AdminLTE App -->
-	<script src="template_adminLTE/js/adminlte.min.js"></script>
+	<!-- JS AdminLTE 3.2.0 -->
+	<script src="assets/template_adminLTE/js/adminlte.min.js"></script>
 
-	<!-- JS fontawesome for icon-icon website -->
-    <script src="plugins/fontawesome/js/fontawesome.js"></script>
-    <script src="plugins/fontawesome/js/brands.js"></script>
-    <script src="plugins/fontawesome/js/solid.js"></script>
+	<!-- JS fontawesome 6.2.0 for icon-icon website -->
+    <script src="assets/plugins/fontawesome/js/fontawesome.js"></script>
+    <script src="assets/plugins/fontawesome/js/brands.js"></script>
+    <script src="assets/plugins/fontawesome/js/solid.js"></script>
 
 </body>
 </html>

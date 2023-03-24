@@ -13,34 +13,24 @@
 
         default:
             
-            // <!-- card -->
-            echo"<div class='card card-info'>";
+            echo "<div class='row'>";
+                echo "<div class='col-md-12'>";
+                    echo "<div class='callout callout-success'>";
+                        echo "<p class='text-secondary'>Data Jurusan SMK Triguna Utama</p>";
+                    echo "</div>";
+                echo "</div>";
+                // <!-- /.col-md-12 -->
                 
-                // <!-- card-header -->
-                echo"<div class='card-header'>";
-                    
-                    echo"<h3 class='card-title'>Data Jurusan SMK Triguna Utama</h3>";
-                    echo"<div class='card-tools'>";
-                        echo"<button type='button' class='btn btn-tool' data-card-widget='collapse' title='Collapse'>";
-                            echo"<i class='fas fa-minus'></i>";
-                        echo"</button>";
-                        echo"<button type='button' class='btn btn-tool' data-card-widget='remove' title='Remove'>";
-                            echo"<i class='fas fa-times'></i>";
-                        echo"</button>";
-                    echo"</div>";
-
-                echo"</div>";
-                // <!-- /.card-header -->
-
-                // <!-- card-body -->
-                echo"<div class='card-body'>";
-                
+                echo "<div class='col-md-12'>";
                     echo "
                         <button type='button' class='btn btn-outline-info btn-md mb-2'>
                             Tambah Data
                         </button>
                     ";
+                echo "</div>";
+                // <!-- /.col-md-12 -->
 
+                echo "<div class='col-md-12'>";
                     echo "<table class='table table-bordered table-hover'>";
                         echo "<thead>";
                             echo "<tr>";
@@ -73,24 +63,22 @@
 
                         echo "</tbody>";
                     echo "</table>";
+                echo "</div>";
+                // <!-- /.col-md-12 -->
 
-                echo"</div>";
-                // <!-- /.card-body -->
+                echo "<div class='col-md-12'>";
+                    echo "<div class='alert alert-light' role='alert'>";
+                        echo "last updated data on 2022-18-01";
+                    echo "</div>";
+                    // <!-- /.div-alert --> 
+                echo "</div>";
+                // <!-- /.col-md-12 -->
 
-                // <!-- card-footer -->
-                echo"<div class='card-footer'>";
-                    echo"<small>last updated data on 2022-18-01</small>";
-                echo"</div>";
-                // <!-- /.card-footer -->
-
-            echo"</div>";
-            // <!-- /.card -->
+            echo "</div>";
+            // <!-- /.row -->
 
             break;
 
-        case "lihat-data";
-            break;
-        
         case "tambah-data";
             break;
         

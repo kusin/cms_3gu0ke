@@ -1,7 +1,7 @@
 <!-- sidebar logo -->
 <div class="user-panel mt-3 mb-3 pb-3 d-flex">
 	<div class="image">
-		<img src="assets/dist/img/smk3gu0ke.png" class="img-circle elevation-2" alt="User Image">
+		<img src="assets/template_adminLTE/img/smk3gu0ke.png" class="img-circle elevation-2" alt="User Image">
 	</div>
 	<div class="info">
 		<a href="?page=home" class="d-block">SMK Triguna Utama</a>

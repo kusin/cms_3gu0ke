@@ -1,27 +1,29 @@
 <!-- ----------------------------------------------------------------------- -->
 <!-- /. div-welcome -------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------- -->
-<!-- div welcome -->
-<div class="callout callout-success">
-    <p class="text-secondary">
-        Selamat Datang Adminstrator, Anda login saat ini tanggal 01 Januari 2023 pukul 07.00 WIB
-    </p>
+<div class="row">
+    <div class="col-md-12">
+        <div class="alert alert-info" role="alert">
+            Selamat Datang Adminstrator, Anda login saat ini tanggal 01 Januari 2023 pukul 07.00 WIB    
+        </div>
+         <!-- /.div-alert -->     
+    </div>
+    <!-- /.div-col -->
 </div>
-<!-- /.div welcome -->
+<!-- /.div-row -->
 
 
 <!-- ----------------------------------------------------------------------- -->
 <!-- /. Informasi Umum ----------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------- -->
-<!-- div-row -->
 <div class="row">
 
     <div class="col-md-12">
-        <div class="alert alert-info" role="alert">
-            Informasi Umum Aplikasi Pembayaran SPP
+        <div class="callout callout-success">
+            <p class="text-secondary">Informasi Umum Aplikasi</p>
         </div>
     </div>
-    <!-- /.col-informasi-spp -->
+    <!-- /.col-md-12-informasi-umum -->
 
     <div class="col-md-3">
         <div class="info-box">
@@ -34,7 +36,7 @@
         </div>
         <!-- /.info-box -->
     </div>
-    <!-- /.col-kelas-->
+    <!-- /.col-jurusan-->
 
     <div class="col-md-3">
         <div class="info-box">
@@ -86,8 +88,8 @@
 <div class="row">
     
     <div class="col-md-12">
-        <div class="alert alert-info" role="alert">
-            Informasi SPP
+        <div class="callout callout-success">
+            <p class="text-secondary">Informasi Pembayaran SPP</p>
         </div>
     </div>
     <!-- /.col-informasi-spp -->
@@ -131,105 +133,57 @@
     </div>
     <!-- /.col-pengeluaran-persemester -->
 
-</div>
-<!-- /.div-row -->
-
-
-<!-- ----------------------------------------------------------------------- -->
-<!-- /. Informasi SPP - Data Harian & Bulanan ------------------------------ -->
-<!-- ----------------------------------------------------------------------- -->
-<!-- div-row -->
-<div class="row">
-    
-    <!-- col-md-6 -->
-    <div class="col-md-6">
-
-        <!-- ----------------------------------------------------------------------- -->
-        <!-- /. Informasi SPP - Data Harian ---------------------------------------- -->
-        <!-- ----------------------------------------------------------------------- -->
-        <div class="alert alert-info" role="alert">
-            Informasi SPP - Data Harian
-        </div>
-
-        <!-- row -->
-        <div class="row">
-            
-            <div class="col-md-6">
-                <div class="info-box">
-                    <span class="info-box-icon bg-success"><i class="fa-solid fa-wallet"></i></span>
-                    <div class="info-box-content">
-                        <span class="info-box-text">Pemasukan Harian</span>
-                        <span class="info-box-number">Rp. 10.000.000,-</span>
-                    </div>
-                    <!-- /.info-box-content -->
-                </div>
-                <!-- /.info-box -->
+    <div class="col-md-3">
+        <div class="info-box">
+            <span class="info-box-icon bg-success"><i class="fa-solid fa-wallet"></i></span>
+            <div class="info-box-content">
+                <span class="info-box-text">Pemasukan Harian</span>
+                <span class="info-box-number">Rp. 10.000.000,-</span>
             </div>
-            <!-- /.col-pemasukan-harian -->
-
-            <div class="col-md-6">
-                <div class="info-box">
-                    <span class="info-box-icon bg-danger"><i class="fa-solid fa-money-check-dollar"></i></span>
-                    <div class="info-box-content">
-                        <span class="info-box-text">Pengeluaran Harian</span>
-                        <span class="info-box-number">Rp. 0,-</span>
-                    </div>
-                    <!-- /.info-box-content -->
-                </div>
-                <!-- /.info-box -->
-            </div>
-            <!-- /.col-pengeluaran-harian -->
-
+            <!-- /.info-box-content -->
         </div>
-        <!-- /.div-row -->
-
+        <!-- /.info-box -->
     </div>
-    <!-- /.col-md-6 -->
+    <!-- /.col-pemasukan-harian -->
 
-    <!-- col-md-6 -->
-    <div class="col-md-6">
-
-        <!-- ----------------------------------------------------------------------- -->
-        <!-- /. Informasi SPP - Data Bulanan --------------------------------------- -->
-        <!-- ----------------------------------------------------------------------- -->
-        <div class="alert alert-info" role="alert">
-            Informasi SPP - Data Bulanan
-        </div>
-
-        <!-- row -->
-        <div class="row">
-            
-            <div class="col-md-6">
-                <div class="info-box">
-                    <span class="info-box-icon bg-success"><i class="fa-solid fa-wallet"></i></span>
-                    <div class="info-box-content">
-                        <span class="info-box-text">Pemasukan Bulanan</span>
-                        <span class="info-box-number">Rp. 10.000.000,-</span>
-                    </div>
-                    <!-- /.info-box-content -->
-                </div>
-                <!-- /.info-box -->
+    <div class="col-md-3">
+        <div class="info-box">
+            <span class="info-box-icon bg-danger"><i class="fa-solid fa-money-check-dollar"></i></span>
+            <div class="info-box-content">
+                <span class="info-box-text">Pengeluaran Harian</span>
+                <span class="info-box-number">Rp. 0,-</span>
             </div>
-            <!-- /.col-pemasukan-bulanan -->
-
-            <div class="col-md-6">
-                <div class="info-box">
-                    <span class="info-box-icon bg-danger"><i class="fa-solid fa-money-check-dollar"></i></span>
-                    <div class="info-box-content">
-                        <span class="info-box-text">Pengeluaran Bulanan</span>
-                        <span class="info-box-number">Rp. 0,-</span>
-                    </div>
-                    <!-- /.info-box-content -->
-                </div>
-                <!-- /.info-box -->
-            </div>
-            <!-- /.col-pengeluaran-bulanan -->
-
+            <!-- /.info-box-content -->
         </div>
-        <!-- /.div-row -->
-
+        <!-- /.info-box -->
     </div>
-    <!-- /.col-md-6 -->
+    <!-- /.col-pengeluaran-harian -->
+
+    <div class="col-md-3">
+        <div class="info-box">
+            <span class="info-box-icon bg-success"><i class="fa-solid fa-wallet"></i></span>
+            <div class="info-box-content">
+                <span class="info-box-text">Pemasukan Bulanan</span>
+                <span class="info-box-number">Rp. 10.000.000,-</span>
+            </div>
+            <!-- /.info-box-content -->
+        </div>
+        <!-- /.info-box -->
+    </div>
+    <!-- /.col-pemasukan-bulanan -->
+
+    <div class="col-md-3">
+        <div class="info-box">
+            <span class="info-box-icon bg-danger"><i class="fa-solid fa-money-check-dollar"></i></span>
+            <div class="info-box-content">
+                <span class="info-box-text">Pengeluaran Bulanan</span>
+                <span class="info-box-number">Rp. 0,-</span>
+            </div>
+            <!-- /.info-box-content -->
+        </div>
+        <!-- /.info-box -->
+    </div>
+    <!-- /.col-pengeluaran-bulanan -->
 
 </div>
 <!-- /.div-row -->
@@ -244,8 +198,8 @@
     <!-- col-md-12 -->
     <div class="col-md-12">
 
-        <div class="alert alert-info" role="alert">
-            Informasi SPP - Data Perkelas
+        <div class="callout callout-success">
+            <p class="text-secondary">Informasi Pembayaran SPP - Data Perkelas</p>
         </div>
 
         <table class="table table-bordered table-hover">
