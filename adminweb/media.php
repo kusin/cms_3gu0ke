@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<!-- title this website -->
-	<title>AdminLTE 3 | Blank Page</title>
+	<title>Aplikasi Pembayaran SPP</title>
 
 	<!-- Bootstrap core CSS -->
     <!-- Bootstrap version 4.6.1 -->

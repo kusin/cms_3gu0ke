@@ -21,57 +21,58 @@
                     echo "</div>";
                 echo "</div>";
                 // <!-- /.col-md-12 -->
-                
-                echo "<div class='col-md-12'>";
-                    echo "
-                        <button type='button' class='btn btn-outline-info btn-md mb-2' onclick=window.location.href=\"?page=jurusan&act=tambah-data\">
-                            Tambah Data
-                        </button>
-                    ";
-                echo "</div>";
-                // <!-- /.col-md-12 -->
 
                 echo "<div class='col-md-12'>";
-                    echo "<table class='table table-bordered table-hover'>";
-                        echo "<thead>";
-                            echo "<tr>";
-                                echo "<th>Nama Jurusan</th>";
-                                echo "<th>Singkatan</th>";
-                                echo "<th>Status Data</th>";
-                                echo "<th>Aksi</th>";
-                            echo "</tr>";
-                        echo "</thead>";
-                        echo "<tbody>";
-                        
-                            foreach($jurusan->showData() as $rows){
-                                echo "<tr>";
-                                    echo "<td>$rows[nama_jurusan]</td>";
-                                    echo "<td>$rows[singkatan]</td>";
-                                    echo "<td>$rows[status_data]</td>";
-                                    echo "<td>
-                                            <button type='button' class='btn btn-outline-primary btn-sm'>
-                                                <i class='fa-solid fa-eye'></i>
-                                            </button>
-                                            <button type='button' class='btn btn-outline-warning btn-sm'>
-                                                <i class='fa-solid fa-edit'></i>
-                                            </button>
-                                            <button type='button' class='btn btn-outline-danger btn-sm'>
-                                                <i class='fa-solid fa-trash'></i>
-                                            </button>
-                                    </td>";
-                                echo "</tr>";
-                            }
+                    echo "<div class='card'>";
+                    
+                        echo "<div class='card-body'>";
+                            echo "
+                                <button type='button' class='btn btn-outline-info btn-md mb-2' onclick=window.location.href=\"?page=jurusan&act=tambah-data\">
+                                    Tambah Data
+                                </button>
+                            ";
+                            echo "<table class='table table-bordered table-hover'>";
+                                echo "<thead>";
+                                    echo "<tr>";
+                                        echo "<th>Nama Jurusan</th>";
+                                        echo "<th>Singkatan</th>";
+                                        echo "<th>Status Data</th>";
+                                        echo "<th>Aksi</th>";
+                                    echo "</tr>";
+                                echo "</thead>";
+                                echo "<tbody>";
+                                
+                                    foreach($jurusan->showData() as $rows){
+                                        echo "<tr>";
+                                            echo "<td>$rows[nama_jurusan]</td>";
+                                            echo "<td>$rows[singkatan]</td>";
+                                            echo "<td>$rows[status_data]</td>";
+                                            echo "<td>
+                                                    <button type='button' class='btn btn-outline-primary btn-sm'>
+                                                        <i class='fa-solid fa-eye'></i>
+                                                    </button>
+                                                    <button type='button' class='btn btn-outline-warning btn-sm'>
+                                                        <i class='fa-solid fa-edit'></i>
+                                                    </button>
+                                                    <button type='button' class='btn btn-outline-danger btn-sm'>
+                                                        <i class='fa-solid fa-trash'></i>
+                                                    </button>
+                                            </td>";
+                                        echo "</tr>";
+                                    }
 
-                        echo "</tbody>";
-                    echo "</table>";
-                echo "</div>";
-                // <!-- /.col-md-12 -->
+                                echo "</tbody>";
+                            echo "</table>";
+                        echo "</div>";
+                        // <!-- /.card-body -->
 
-                echo "<div class='col-md-12'>";
-                    echo "<div class='alert alert-light' role='alert'>";
-                        echo "last updated data on 2022-18-01";
+                        echo "<div class='card-footer'>";
+                            echo "<small>Last updated data on 2023-01-01, 20:30 WIB</small>";
+                        echo "</div>";
+                        // <!-- /.card-footer -->
+
                     echo "</div>";
-                    // <!-- /.div-alert --> 
+                    // <!-- /.card -->
                 echo "</div>";
                 // <!-- /.col-md-12 -->
 

@@ -194,38 +194,53 @@
 <!-- ----------------------------------------------------------------------- -->
 <!-- div-row -->
 <div class="row">
-    
-    <!-- col-md-12 -->
-    <div class="col-md-12">
 
+    <div class="col-md-12">
         <div class="callout callout-success">
             <p class="text-secondary">Informasi Pembayaran SPP - Data Perkelas</p>
         </div>
+    </div>
+    <!-- /.col-informasi-spp -->
+    
+    <div class="col-md-12">
 
-        <table class="table table-bordered table-hover">
-            <thead>
-                <tr>
-                    <th>Nama Kelas</th>
-                    <th>Jumlah Siswa</th>
-                    <th>Total Pembayaran</th>
-                    <th>Total Tagihan</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php
-                    $i = 0;
-                    for($i=0; $i<=10; $i++){
-                ?>
-                <tr>
-                    <td>X-TKJ-1</td>
-                    <td>40 Siswa</td>
-                    <td>Rp. 10.000.000,-</td>
-                    <td>Rp. 0,-</td>
-                </tr>
+        <div class="card">
 
-                <?php } ?>
-            </tbody>
-        </table>
+            <div class="card-body">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th>Nama Kelas</th>
+                            <th>Jumlah Siswa</th>
+                            <th>Total Pembayaran</th>
+                            <th>Total Tagihan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php
+                            $i = 0;
+                            for($i=0; $i<=10; $i++){
+                        ?>
+                        <tr>
+                            <td>X-TKJ-1</td>
+                            <td>40 Siswa</td>
+                            <td>Rp. 10.000.000,-</td>
+                            <td>Rp. 0,-</td>
+                        </tr>
+
+                        <?php } ?>
+                    </tbody>
+                </table>
+            </div>
+            <!-- /.card-body -->
+
+            <div class="card-footer">
+                <small>Last updated data on 2023-01-01, 20:30 WIB</small>
+            </div>
+            <!-- /.card-footer -->
+
+        </div>
+        <!-- /.card -->
 
     </div>
     <!-- /.col-md-12 -->
