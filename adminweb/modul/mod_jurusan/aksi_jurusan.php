@@ -1,7 +1,9 @@
 <?php
 
+    // import conn databse
     require_once "../config/database.php";
 
+    // main class
     class Jurusan extends Database{
 
         // method setAttribute
@@ -37,8 +39,6 @@
                 "INSERT INTO tb_jurusan(nama_jurusan, singkatan, status_data, create_at, update_at, delete_at)
                     VALUES('$nama_jurusan', '$singkatan', '$status_data', '$create_at', '$update_at', '$delete_at')"
             );
-
-            header("location/cms_3gu0ke/adminweb/media.php?page=jurusan");
         }
 
         // method editData

@@ -1,61 +1,100 @@
-<!-- div card -->
-<div class="card card-info">
-    <div class="card-header">
-        <h3 class="card-title">Data Siswa SMK Triguna Utama</h3>
+<?php
 
-        <div class="card-tools">
-            <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                <i class="fas fa-minus"></i>
-            </button>
-            <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
-                <i class="fas fa-times"></i>
-            </button>
-        </div>
-    </div>
-    <div class="card-body">
-        <table class="table table-bordered table-hover">
-            <thead>
-                <tr>
-                    <th>NISN</th>
-                    <th>Nama Siswa</th>
-                    <th>Kolom-1</th>
-                    <th>Kolom-2</th>
-                    <th>Kolom-3</th>
-                    <th>Kolom-N</th>
-                    <th>Aksi</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php
-                    $i = 0;
-                    for($i=0; $i<=10; $i++){
-                ?>
-                <tr>
-                    <td>1114091000101</td>
-                    <td>Aryajaya Alamsyah</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>
-                        <button type="button" class="btn btn-primary btn-sm">
-                            <i class="fa-solid fa-eye"></i>
-                        </button>
-                        <button type="button" class="btn btn-warning btn-sm">
-                            <i class="fa-solid fa-edit"></i>
-                        </button>
-                        <button type="button" class="btn btn-danger btn-sm">
-                            <i class="fa-solid fa-trash"></i>
-                        </button>
-                    </td>
-                </tr>
+    // extend class koneksi
+    require_once "aksi_siswa.php";
 
-                <?php } ?>
-            </tbody>
-        </table>
-    </div>
-    <div class="card-footer">
-        <small>last updated data on 2022-18-01</small>
-    </div>
-</div>
-<!-- /.div card -->
+    // declare object jurusan
+    $siswa = new Siswa();
+
+    // mengatasi variabel yang belum di definisikan (notice undefined index)
+    $act = isset($_GET['act']) ? $_GET['act'] : ''; 
+
+    // percabangan untuk menampilkan form lihat, tambah, ubah, hapus data
+    switch($act){
+
+        default:
+            
+            echo "<div class='row'>";
+                
+                echo "<div class='col-md-12'>";
+                    echo "<div class='callout callout-success'>";
+                        echo "<p class='text-secondary'>Data Siswa</p>";
+                    echo "</div>";
+                echo "</div>";
+                // <!-- /.col-md-12 -->
+
+                echo "<div class='col-md-12'>";
+                    
+                echo "</div>";
+                // <!-- /.col-md-12 -->
+
+            echo "</div>";
+            // <!-- /.row -->
+
+            break;
+
+        case "tambah-data":
+
+            echo "<div class='row'>";
+                
+                echo "<div class='col-md-12'>";
+                    echo "<div class='callout callout-success'>";
+                        echo "<p class='text-secondary'>Data Siswa</p>";
+                    echo "</div>";
+                echo "</div>";
+                // <!-- /.col-md-12 -->
+
+                echo "<div class='col-md-12'>";
+                    
+                echo "</div>";
+                // <!-- /.col-md-12 -->
+
+            echo "</div>";
+            // <!-- /.row -->
+
+            break;
+        
+        case "ubah-data":
+
+            echo "<div class='row'>";
+                
+                echo "<div class='col-md-12'>";
+                    echo "<div class='callout callout-success'>";
+                        echo "<p class='text-secondary'>Data Siswa</p>";
+                    echo "</div>";
+                echo "</div>";
+                // <!-- /.col-md-12 -->
+
+                echo "<div class='col-md-12'>";
+                    
+                echo "</div>";
+                // <!-- /.col-md-12 -->
+
+            echo "</div>";
+            // <!-- /.row -->
+
+            break;
+
+        case "hapus-data":
+            
+            echo "<div class='row'>";
+                
+                echo "<div class='col-md-12'>";
+                    echo "<div class='callout callout-success'>";
+                        echo "<p class='text-secondary'>Data Siswa</p>";
+                    echo "</div>";
+                echo "</div>";
+                // <!-- /.col-md-12 -->
+
+                echo "<div class='col-md-12'>";
+                    
+                echo "</div>";
+                // <!-- /.col-md-12 -->
+
+            echo "</div>";
+            // <!-- /.row -->
+            
+            break;
+    }
+
+?>

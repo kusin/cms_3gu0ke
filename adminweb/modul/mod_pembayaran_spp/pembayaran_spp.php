@@ -1,233 +1,100 @@
-<!-- ----------------------------------------------------------------------- -->
-<!-- /. Form Pemabayaran SPP ----------------------------------------------- -->
-<!-- ----------------------------------------------------------------------- -->
-<!-- div-row -->
-<div class="row">
+<?php
 
-    <!-- div-col-md-12-->
-    <div class="col-md-12">
-        <div class="alert alert-info" role="alert">
-            Formulir pembayaran spp
-        </div>
-    </div>
-    <!-- /.div-col-md-12-->
+    // extend class koneksi
+    require_once "aksi_siswa.php";
 
-    <!-- div-col-md-6-->
-    <div class="col-md-6">
-    
-    </div>
-    <!-- /.div-col-md-6-->
+    // declare object jurusan
+    $siswa = new Siswa();
 
-    <!-- div-col-md-6-->
-    <div class="col-md-6">
+    // mengatasi variabel yang belum di definisikan (notice undefined index)
+    $act = isset($_GET['act']) ? $_GET['act'] : ''; 
 
-    </div>
-    <!-- /.div-col-md-6-->
+    // percabangan untuk menampilkan form lihat, tambah, ubah, hapus data
+    switch($act){
 
-</div>
-<!-- /.div-row -->
+        default:
+            
+            echo "<div class='row'>";
+                
+                echo "<div class='col-md-12'>";
+                    echo "<div class='callout callout-success'>";
+                        echo "<p class='text-secondary'>Data Siswa</p>";
+                    echo "</div>";
+                echo "</div>";
+                // <!-- /.col-md-12 -->
 
+                echo "<div class='col-md-12'>";
+                    
+                echo "</div>";
+                // <!-- /.col-md-12 -->
 
-<!-- ----------------------------------------------------------------------- -->
-<!-- /. Data Siswa --------------------------------------------------------- -->
-<!-- ----------------------------------------------------------------------- -->
-<!-- div-row -->
-<div class="row">
+            echo "</div>";
+            // <!-- /.row -->
 
-    <!-- div-col-md-12-->
-    <div class="col-md-12">
-        <div class="alert alert-info" role="alert">
-            Informasi data siswa
-        </div>
-    </div>
-    <!-- /.div-col-md-12-->
+            break;
 
-    <!-- div-col-md-6-->
-    <div class="col-md-6">
-    
-    </div>
-    <!-- /.div-col-md-6-->
+        case "tambah-data":
 
-    <!-- div-col-md-6-->
-    <div class="col-md-6">
+            echo "<div class='row'>";
+                
+                echo "<div class='col-md-12'>";
+                    echo "<div class='callout callout-success'>";
+                        echo "<p class='text-secondary'>Data Siswa</p>";
+                    echo "</div>";
+                echo "</div>";
+                // <!-- /.col-md-12 -->
 
-    </div>
-    <!-- /.div-col-md-6-->
+                echo "<div class='col-md-12'>";
+                    
+                echo "</div>";
+                // <!-- /.col-md-12 -->
 
-</div>
-<!-- /.div-row -->
+            echo "</div>";
+            // <!-- /.row -->
 
+            break;
+        
+        case "ubah-data":
 
-<!-- ----------------------------------------------------------------------- -->
-<!-- /. Data Pembayaran SPP ------------------------------------------------ -->
-<!-- ----------------------------------------------------------------------- -->
-<!-- div-row -->
-<div class="row">
+            echo "<div class='row'>";
+                
+                echo "<div class='col-md-12'>";
+                    echo "<div class='callout callout-success'>";
+                        echo "<p class='text-secondary'>Data Siswa</p>";
+                    echo "</div>";
+                echo "</div>";
+                // <!-- /.col-md-12 -->
 
-    <!-- div-col-md-12-->
-    <div class="col-md-12">
-        <div class="alert alert-info" role="alert">
-            Informasi detail pembayaran
-        </div>
-    </div>
-    <!-- /.div-col-md-12-->
+                echo "<div class='col-md-12'>";
+                    
+                echo "</div>";
+                // <!-- /.col-md-12 -->
 
-    <!-- div-col-md-12-->
-    <div class="col-md-12">
-        <table class="table table-bordered table-hover">
-            <thead>
-                <tr>
-                    <th rowspan="2" class="align-middle">Bulan</th>
-                    <th colspan="2" class="align-middle"><center>kelas X</center></th>
-                    <th colspan="2" class="align-middle"><center>kelas XI</center></th>
-                    <th colspan="2" class="align-middle"><center>kelas XII</center></th>
-                    <th rowspan="2" class="align-middle"><center>keterangan</center></th>
-                </tr>
-                <tr>
-                    <!-- kelas X -->
-                    <th>Tanggal</th>
-                    <th>Jumlah</th>
+            echo "</div>";
+            // <!-- /.row -->
 
-                    <!-- kelas XI -->
-                    <th>Tanggal</th>
-                    <th>Jumlah</th>
+            break;
 
-                    <!-- kelas XII -->
-                    <th>Tanggal</th>
-                    <th>Jumlah</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Juli</td>
-                    <td>-</td>
-                    <td></td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>Agustus</td>
-                    <td>-</td>
-                    <td></td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>September</td>
-                    <td>-</td>
-                    <td></td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>Oktober</td>
-                    <td>-</td>
-                    <td></td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>November</td>
-                    <td>-</td>
-                    <td></td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>Desember</td>
-                    <td>-</td>
-                    <td></td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>Januari</td>
-                    <td>-</td>
-                    <td></td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>Februari</td>
-                    <td>-</td>
-                    <td></td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>Maret</td>
-                    <td>-</td>
-                    <td></td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>April</td>
-                    <td>-</td>
-                    <td></td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>Mei</td>
-                    <td>-</td>
-                    <td></td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>Juni</td>
-                    <td>-</td>
-                    <td></td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <!-- /.div-col-md-12-->
+        case "hapus-data":
+            
+            echo "<div class='row'>";
+                
+                echo "<div class='col-md-12'>";
+                    echo "<div class='callout callout-success'>";
+                        echo "<p class='text-secondary'>Data Siswa</p>";
+                    echo "</div>";
+                echo "</div>";
+                // <!-- /.col-md-12 -->
 
-    <!-- div-col-md-6-->
-    <div class="col-md-6">
+                echo "<div class='col-md-12'>";
+                    
+                echo "</div>";
+                // <!-- /.col-md-12 -->
 
-    </div>
-    <!-- /.div-col-md-6-->
+            echo "</div>";
+            // <!-- /.row -->
+            
+            break;
+    }
 
-</div>
-<!-- /.div-row -->
+?>
