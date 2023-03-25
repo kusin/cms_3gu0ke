@@ -35,7 +35,7 @@
 
 		<!-- li-menu-data-pembayaran-spp -->
 		<li class="nav-item">
-			<a href="?page=spp" class="nav-link">
+			<a href="?page=pembayaran-spp" class="nav-link">
 				<i class="nav-icon fa-solid fa-money-check-dollar"></i>
 				<p>Data Pembayaran SPP</p>
 			</a>
@@ -44,7 +44,7 @@
 
 		<!-- li-menu-cetak-laporan -->
 		<li class="nav-item">
-			<a href="#" class="nav-link">
+			<a href="?page=cetak-laporan" class="nav-link">
 				<i class="nav-icon fa-solid fa-print"></i>
 				<p>Cetak Laporan</p>
 			</a>

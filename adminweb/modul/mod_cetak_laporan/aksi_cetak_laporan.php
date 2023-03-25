@@ -4,7 +4,7 @@
     require_once "../config/database.php";
 
     // main class
-    class Pembayaran_SPP extends Database{
+    class Cetak_Laporan extends Database{
 
         // method setAttribute
         public function setAttribute(){
