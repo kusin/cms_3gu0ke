@@ -3,18 +3,17 @@
     class Database{
 
         // property database
-        protected $conn = "";
-        private $server = "localhost";
-        private $username = "root";
-        private $password = "";
-        private $database = "cms_3gu0ke";
+        public $conn = "";
+        public $server = "localhost";
+        public $username = "root";
+        public $password = "";
+        public $database = "cms_3gu0ke";
 
         // method open koneksi
         function __construct(){
+            
             try{
-                $this->conn = new mysqli(
-                    $this->server, $this->username, $this->password, $this->database
-                );
+                $this->conn = new mysqli($this->server, $this->username, $this->password, $this->database);
             } catch(Exception $e){
                 echo 'Message: ' .$e->getMessage();
             }

@@ -1,8 +1,14 @@
 <?php
 
-    require_once "../config/koneksi.php";
+    require_once "../config/database.php";
 
     class Jurusan extends Database{
+
+        // method setAttribute
+        public function setAttribute(){
+            
+            return $data;
+        }
 
         // method showData
         public function showData(){
@@ -19,15 +25,20 @@
         }
 
         // method addData
-        public function addData($nama_jurusan, $singkatan, $status_data="Aktif", $create_at=NULL, $update_at=NULL, $delete_at=NULL){
-
+        public function addData($_post, $create_at=NULL, $update_at=NULL, $delete_at=NULL){
+            
+            // attribut data
+            $nama_jurusan   = $this->conn->real_escape_string($_POST['txt_nama_jurusan']);
+            $singkatan      = $this->conn->real_escape_string($_POST['txt_singkatan']);
+            $status_data    = $this->conn->real_escape_string($_POST['cb_status_data']);
+            
             // statment sql
             $sql = $this->conn->query(
                 "INSERT INTO tb_jurusan(nama_jurusan, singkatan, status_data, create_at, update_at, delete_at)
                     VALUES('$nama_jurusan', '$singkatan', '$status_data', '$create_at', '$update_at', '$delete_at')"
             );
 
-            return $hasil;
+            return $sql;
         }
 
         // method editData

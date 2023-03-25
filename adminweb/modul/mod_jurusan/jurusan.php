@@ -1,7 +1,7 @@
 <?php
 
     // extend class koneksi
-    require_once "aksi_jurusan.php";
+    require_once "class_jurusan.php";
 
     // declare object jurusan
     $jurusan = new Jurusan();
@@ -9,6 +9,7 @@
     // mengatasi variabel yang belum di definisikan (notice undefined index)
     $act = isset($_GET['act']) ? $_GET['act'] : ''; 
 
+    // percabangan untuk menampilkan form lihat, tambah, ubah, hapus data
     switch($act){
 
         default:
@@ -81,8 +82,15 @@
 
             break;
 
+        
         case "tambah-data":
             
+            // aktif jika tombol submit ditekan
+            // maka akan memanggil func addData
+            if(isset($_POST['submit'])){
+                $jurusan->addData($_POST);
+            }
+
             echo "<div class='row'>";
                 
                 echo "<div class='col-md-12'>";
@@ -93,9 +101,10 @@
                 // <!-- /.col-md-12 -->
 
                 echo "<div class='col-md-12'>";
+
                     echo "<div class='card'>";
                         echo "<div class='card-body'>";
-                            echo "<form action='#' method='#'>";
+                            echo "<form method='POST' enctype='multipart/form-data'>";
                                 
                                 echo "
                                     <div class='form-group'>
@@ -123,7 +132,8 @@
 
                                 echo "
                                     <div class='form-group'>
-                                        <button type='submit' class='btn btn-primary'>Submit</button>
+                                        <button type='reset' class='btn btn-danger'>Reset</button>
+                                        <button type='submit' class='btn btn-success' name='submit'>Submit</button>
                                     </div>
                                 ";
                                 
@@ -133,6 +143,7 @@
                         // <!-- /.card-body -->    
                     echo "</div>";
                     // <!-- /.card -->
+
                 echo "</div>";
                 // <!-- /.col-md-12 -->
 
