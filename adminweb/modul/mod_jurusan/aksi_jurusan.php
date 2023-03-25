@@ -38,7 +38,7 @@
                     VALUES('$nama_jurusan', '$singkatan', '$status_data', '$create_at', '$update_at', '$delete_at')"
             );
 
-            return $sql;
+            header("location/cms_3gu0ke/adminweb/media.php?page=jurusan");
         }
 
         // method editData

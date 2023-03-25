@@ -1,7 +1,7 @@
 <?php
 
     // extend class koneksi
-    require_once "class_jurusan.php";
+    require_once "aksi_jurusan.php";
 
     // declare object jurusan
     $jurusan = new Jurusan();

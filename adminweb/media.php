@@ -21,7 +21,6 @@
 	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.css">
     <link rel="stylesheet" href="assets/plugins/fontawesome/css/brands.css">
     <link rel="stylesheet" href="assets/plugins/fontawesome/css/solid.css">
-
 </head>
 
 <body class="hold-transition sidebar-mini">
@@ -95,6 +94,5 @@
     <script src="assets/plugins/fontawesome/js/fontawesome.js"></script>
     <script src="assets/plugins/fontawesome/js/brands.js"></script>
     <script src="assets/plugins/fontawesome/js/solid.js"></script>
-
 </body>
 </html>
