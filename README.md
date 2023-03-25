@@ -1,3 +1,5 @@
+![images](hasil.jpg)
+
 ## Aplikasi Pembayaran SPP
 
 - Studi case "SMK Triguna Utama"
