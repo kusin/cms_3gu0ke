@@ -132,8 +132,8 @@
 
                                 echo "
                                     <div class='form-group'>
-                                        <button type='reset' class='btn btn-danger'>Reset</button>
                                         <button type='submit' class='btn btn-success' name='submit'>Submit</button>
+                                        <button type='reset' class='btn btn-danger' name='reset'>Reset</button>
                                     </div>
                                 ";
                                 

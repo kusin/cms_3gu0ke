@@ -28,13 +28,18 @@
                     
                         echo "<div class='card-body'>";
                             echo "
-                                <button type='button' class='btn btn-outline-info btn-md mb-2' onclick=window.location.href=\"?page=jurusan&act=tambah-data\">
+                                <button type='button' class='btn btn-outline-info btn-md mb-2'>
                                     Tambah Data
                                 </button>
                             ";
                             echo "
-                                <button type='button' class='btn btn-outline-info btn-md mb-2' onclick=window.location.href=\"?page=jurusan&act=tambah-data\">
+                                <button type='button' class='btn btn-outline-info btn-md mb-2'>
                                     Import Data
+                                </button>
+                            ";
+                            echo "
+                                <button type='button' class='btn btn-outline-info btn-md mb-2'>
+                                    Export Data
                                 </button>
                             ";
                             echo "<table class='table table-bordered table-hover'>";
