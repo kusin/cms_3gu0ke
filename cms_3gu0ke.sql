@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.2
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 24, 2023 at 09:31 PM
--- Server version: 10.4.10-MariaDB
--- PHP Version: 7.2.25
+-- Generation Time: Mar 30, 2023 at 03:59 AM
+-- Server version: 10.4.25-MariaDB
+-- PHP Version: 7.4.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -43,8 +42,10 @@ CREATE TABLE `tb_jurusan` (
 --
 
 INSERT INTO `tb_jurusan` (`id_jurusan`, `nama_jurusan`, `singkatan`, `status_data`, `create_at`, `update_at`, `delete_at`) VALUES
-(1, 'Teknik Komputer Jaringan', 'TKJ', 'Aktif', '2023-03-18 00:00:00', NULL, NULL),
-(2, 'Multimedia', 'MM', 'Aktif', '2023-03-18 00:00:00', NULL, NULL);
+(1, 'Teknik Komputer Jaringan', 'TKJ', 'Aktif', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(2, 'Multimedia', 'MM', 'Aktif', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(3, 'Akutansi Keuangan', 'AK', 'Aktif', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(4, 'Administrasi Perkantoran', 'AP', 'Aktif', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
 
 --
 -- Indexes for dumped tables
@@ -64,7 +65,7 @@ ALTER TABLE `tb_jurusan`
 -- AUTO_INCREMENT for table `tb_jurusan`
 --
 ALTER TABLE `tb_jurusan`
-  MODIFY `id_jurusan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_jurusan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
