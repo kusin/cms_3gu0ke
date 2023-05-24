@@ -6,10 +6,10 @@
 			try{
 	
 				// membuka koneksi database
-				$this->conn = new PDO("mysql:host=localhost;dbname=cms_3gu0ke", "root", "");
+				$this->db = new PDO("mysql:host=localhost;dbname=cms_3gu0ke", "root", "");
 
 				// return values
-				return $this->conn;
+				return $this->db;
 				
 			}catch (PDOException $e) {
 		

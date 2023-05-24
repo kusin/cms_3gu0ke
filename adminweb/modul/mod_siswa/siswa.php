@@ -98,6 +98,20 @@
 
         case "tambah-data":
 
+            if(isset($_POST['submit'])){
+                $nis = $_POST['txt_nis'];
+                $nisn = $_POST['txt_nisn'];
+                $nama_siswa = $_POST['txt_nama_siswa'];
+                $jenis_kelamin = $_POST['cb_jenis_kelamin'];
+                $tempat_lahir = $_POST['txt_tempat_lahir'];
+                $tanggal_lahir = $_POST['txt_tanggal_lahir'];
+                $username = $_POST['txt_username'];
+                $password = $_POST['txt_password'];
+                $status_data = $_POST['cb_status_data'];
+
+                $siswa->addData($nis, $nisn, $nama_siswa, $jenis_kelamin, $tempat_lahir, $tanggal_lahir, $username, $password, $status_data);
+            }
+
             echo "<div class='row'>";
                 
                 echo "<div class='col-md-12'>";
@@ -172,14 +186,22 @@
                                     ";
                                 echo "</div>";
                                 // <!-- /.form-row -->
-                                
+                                echo "
+                                    <div class='form-group'>
+                                        <label for'cb_status_data'>Status Data</label>
+                                        <select class='form-control' id='cb_status_data' name='cb_status_data'>
+                                            <option value='' disabled selected hidden>Status Data</option>
+                                            <option value='Aktif'>Aktif</option>
+                                            <option value='Tidak Aktif'>Tidak Aktif</option>
+                                        </select>
+                                    </div>
+                                ";
                                 echo "
                                     <div class='form-group'>
                                         <button type='submit' class='btn btn-success' name='submit'>Submit</button>
                                         <button type='reset' class='btn btn-danger' name='reset'>Reset</button>
                                     </div>
                                 ";
-                                
                             echo "</form>";
                             // <!-- /.form tambah-data siswa -->    
                         echo "</div>";

@@ -2,8 +2,8 @@ use cms_3gu0ke;
 
 drop table tb_siswa;
 CREATE TABLE tb_siswa (
-	nis INT(11) NOT NULL , 
-	nisn INT(11) NOT NULL , 
+	nis VARCHAR(255) NOT NULL , 
+	nisn VARCHAR(255) NOT NULL , 
 	nama_siswa VARCHAR(255) NULL , 
 	jenis_kelamin VARCHAR(255) NULL , 
 	tempat_lahir VARCHAR(255) NULL , 
