@@ -9,18 +9,16 @@
 	<!-- title this website -->
 	<title>Aplikasi Pembayaran SPP</title>
 
-	<!-- Bootstrap core CSS -->
-    <!-- Bootstrap version 4.6.1 -->
-	<link rel="stylesheet" href="assets/template_adminLTE/css/adminlte.min.css">
-
 	<!-- Google Font: Source Sans Pro -->
 	<link rel="stylesheet" href="assets/fonts.googleapis.css">
 	
-	<!-- Icons core CSS -->
 	<!-- Font-Awesome version 6.2.0 -->
 	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.css">
     <link rel="stylesheet" href="assets/plugins/fontawesome/css/brands.css">
     <link rel="stylesheet" href="assets/plugins/fontawesome/css/solid.css">
+
+	<!-- Bootstrap version 4.6.1 -->
+	<link rel="stylesheet" href="assets/template_adminLTE/css/adminlte.min.css">
 </head>
 
 <body class="hold-transition sidebar-mini">
@@ -84,6 +82,9 @@
 	<!-- JS jQuery -->
 	<script src="assets/plugins/jquery/jquery.min.js"></script>
 	
+	<!-- Bootstrap 4 -->
+	<script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 	<!-- JS AdminLTE 3.2.0 -->
 	<script src="assets/template_adminLTE/js/adminlte.min.js"></script>
 
