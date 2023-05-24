@@ -1,3 +1,5 @@
+<hr style="border: 1px solid #d3d3d3; margin-top:2px">
+
 <!-- ----------------------------------------------------------------------- -->
 <!-- /. div-welcome -------------------------------------------------------- -->
 <!-- ----------------------------------------------------------------------- -->
@@ -12,15 +14,14 @@
 </div>
 <!-- /.div-row -->
 
-
 <!-- ----------------------------------------------------------------------- -->
-<!-- /. Informasi Umum ----------------------------------------------------- -->
+<!-- /. Informasi Umum Aplikasi -------------------------------------------- -->
 <!-- ----------------------------------------------------------------------- -->
-<div class="row">
+<div class="row mb-4">
 
     <div class="col-md-12">
         <div class="callout callout-success">
-            <p class="text-secondary">Informasi Umum Aplikasi</p>
+            <b>Informasi Umum Aplikasi</b>
         </div>
     </div>
     <!-- /.col-md-12-informasi-umum -->
@@ -85,16 +86,16 @@
 <!-- /. Informasi SPP ------------------------------------------------------ -->
 <!-- ----------------------------------------------------------------------- -->
 <!-- div-row -->
-<div class="row">
+<div class="row mb-4">
     
     <div class="col-md-12">
         <div class="callout callout-success">
-            <p class="text-secondary">Informasi Pembayaran SPP</p>
+            <b>Informasi Pembayaran SPP</b>
         </div>
     </div>
     <!-- /.col-informasi-spp -->
 
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="info-box">
             <span class="info-box-icon bg-success"><i class="fa-solid fa-wallet"></i></span>
             <div class="info-box-content">
@@ -107,7 +108,7 @@
     </div>
     <!-- /.col-pemasukan-persemester -->
 
-    <div class="col-md-4">
+    <div class="col-md-3">
         <div class="info-box">
             <span class="info-box-icon bg-danger"><i class="fa-solid fa-money-check-dollar"></i></span>
             <div class="info-box-content">
@@ -120,7 +121,20 @@
     </div>
     <!-- /.col-pengeluaran-persemester -->
 
-    <div class="col-md-4">
+    <div class="col-md-3">
+        <div class="info-box">
+            <span class="info-box-icon bg-success"><i class="fa-solid fa-wallet"></i></span>
+            <div class="info-box-content">
+                <span class="info-box-text">Total Saldo</span>
+                <span class="info-box-number">Rp. 10.000.000,-</span>
+            </div>
+            <!-- /.info-box-content -->
+        </div>
+        <!-- /.info-box -->
+    </div>
+    <!-- /.col-pemasukan-persemester -->
+
+    <div class="col-md-3">
         <div class="info-box">
             <span class="info-box-icon bg-danger"><i class="fa-solid fa-coins"></i></span>
             <div class="info-box-content">
@@ -132,58 +146,6 @@
         <!-- /.info-box -->
     </div>
     <!-- /.col-pengeluaran-persemester -->
-
-    <div class="col-md-3">
-        <div class="info-box">
-            <span class="info-box-icon bg-success"><i class="fa-solid fa-wallet"></i></span>
-            <div class="info-box-content">
-                <span class="info-box-text">Pemasukan Harian</span>
-                <span class="info-box-number">Rp. 10.000.000,-</span>
-            </div>
-            <!-- /.info-box-content -->
-        </div>
-        <!-- /.info-box -->
-    </div>
-    <!-- /.col-pemasukan-harian -->
-
-    <div class="col-md-3">
-        <div class="info-box">
-            <span class="info-box-icon bg-danger"><i class="fa-solid fa-money-check-dollar"></i></span>
-            <div class="info-box-content">
-                <span class="info-box-text">Pengeluaran Harian</span>
-                <span class="info-box-number">Rp. 0,-</span>
-            </div>
-            <!-- /.info-box-content -->
-        </div>
-        <!-- /.info-box -->
-    </div>
-    <!-- /.col-pengeluaran-harian -->
-
-    <div class="col-md-3">
-        <div class="info-box">
-            <span class="info-box-icon bg-success"><i class="fa-solid fa-wallet"></i></span>
-            <div class="info-box-content">
-                <span class="info-box-text">Pemasukan Bulanan</span>
-                <span class="info-box-number">Rp. 10.000.000,-</span>
-            </div>
-            <!-- /.info-box-content -->
-        </div>
-        <!-- /.info-box -->
-    </div>
-    <!-- /.col-pemasukan-bulanan -->
-
-    <div class="col-md-3">
-        <div class="info-box">
-            <span class="info-box-icon bg-danger"><i class="fa-solid fa-money-check-dollar"></i></span>
-            <div class="info-box-content">
-                <span class="info-box-text">Pengeluaran Bulanan</span>
-                <span class="info-box-number">Rp. 0,-</span>
-            </div>
-            <!-- /.info-box-content -->
-        </div>
-        <!-- /.info-box -->
-    </div>
-    <!-- /.col-pengeluaran-bulanan -->
 
 </div>
 <!-- /.div-row -->
@@ -197,7 +159,7 @@
 
     <div class="col-md-12">
         <div class="callout callout-success">
-            <p class="text-secondary">Informasi Pembayaran SPP - Data Perkelas</p>
+            <b>Rincian Pembayaran SPP</b>
         </div>
     </div>
     <!-- /.col-informasi-spp -->
@@ -210,6 +172,7 @@
                 <table class="table table-bordered table-hover">
                     <thead>
                         <tr>
+                            <th>Nama Jurusan</th>
                             <th>Nama Kelas</th>
                             <th>Jumlah Siswa</th>
                             <th>Total Pembayaran</th>
@@ -222,6 +185,7 @@
                             for($i=0; $i<=10; $i++){
                         ?>
                         <tr>
+                            <td>Teknik Komputer Jaringan</td>
                             <td>X-TKJ-1</td>
                             <td>40 Siswa</td>
                             <td>Rp. 10.000.000,-</td>
@@ -247,4 +211,3 @@
 
 </div>
 <!-- /.div-row -->
-

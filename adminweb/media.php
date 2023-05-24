@@ -84,9 +84,6 @@
 	<!-- JS jQuery -->
 	<script src="assets/plugins/jquery/jquery.min.js"></script>
 	
-	<!-- JS Bootstrap 4.6.1 -->
-	<script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-
 	<!-- JS AdminLTE 3.2.0 -->
 	<script src="assets/template_adminLTE/js/adminlte.min.js"></script>
 

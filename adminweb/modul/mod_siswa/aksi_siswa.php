@@ -1,21 +1,19 @@
 <?php
 
     // import conn database
-    require_once "../config/database.php";
+    require_once "../config/koneksi.php";
 
     // main class
     class Siswa extends Database{
 
-        // method setAttribute
-        public function setAttribute(){
-            
-            return $data;
-        }
-
         // method showData
         public function showData(){
 
-            return $data;
+            $sql = $this->conn->prepare("SELECT * FROM tb_siswa ORDER BY nama_siswa ASC");
+
+            $sql->execute();
+
+            return $sql;
         }
 
         // method addData
