@@ -2,23 +2,21 @@
 
     class Database{
 
-		public function __construct(){
+		public function DBConnect(){
 			try{
 	
 				// membuka koneksi database
 				$this->conn = new PDO("mysql:host=localhost;dbname=cms_3gu0ke", "root", "");
+
+				// return values
+				return $this->conn;
 				
 			}catch (PDOException $e) {
 		
 				// tampilkan pesan kesalahan jika koneksi gagal
-				echo "Koneksi atau query bermasalah : " . $e->getMessage() . "<br/>";
-				
-				// membuka koneksi database
-				die();
-		
-			}
+				return 'Connection failed: ' . $e->getMessage();
 
-			return $this->conn;
+			}
 		}
 	}
 

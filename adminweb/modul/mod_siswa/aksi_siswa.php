@@ -4,7 +4,14 @@
     require_once "../config/koneksi.php";
 
     // main class
-    class Siswa extends Database{
+    class Siswa{
+
+        // method __construct 
+        function __construct(){
+
+            // membuka koneksi database
+            $this->conn = (new Database())->DBConnect();;
+        }
 
         // method showData
         public function showData(){
